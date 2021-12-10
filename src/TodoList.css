@@ -1,0 +1,17 @@
+.list li{
+    list-style: none;
+    border: 2px solid #ccc;
+    border-left: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    border: 0.25rem solid #ccc;
+    border-radius: 0.25rem ;
+    margin: 1rem;
+    padding: 0;
+    width: 30vw;
+}

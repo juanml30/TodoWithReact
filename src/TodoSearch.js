@@ -1,7 +1,8 @@
 import React from "react";
+import "./TodoSearch.css";
 
 function TodoSearch() {
-    return <input type="text" placeholder="Find your text" />;
+    return <input className="searchInput" type="text" placeholder="Find your text" />;
 }
 
 export { TodoSearch };
